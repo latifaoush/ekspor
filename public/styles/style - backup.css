@@ -1,0 +1,201 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin-left: 210px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.product{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    text-align: center;
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 50px; /* Add rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    transition: box-shadow 0.3s ease;
+    text-decoration: none !important;
+}
+
+.product:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+.product h4{
+    color: gray;
+    text-decoration: none !important;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.product h5{
+    color: darkorange;
+    text-decoration: none !important;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.containerrawcoconut{
+
+
+    width: 1100px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.namaproduk{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.minimum {
+    width: 350px;
+    height: 225px;
+    background-color: #0C3954;
+    border-radius: 50px; /* Add rounded corners */
+    margin-right: 25px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.minimum p {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    color: #fff;
+ 
+}
+
+.production {
+    width: 350px;
+    height: 225px;
+    background-color: #0C3954;
+    border-radius: 50px; /* Add rounded corners */
+    margin-right: 25px;
+    align-content: center;
+    text-align: center;
+}
+
+.production p {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.certificate {
+    width: 350px;
+    height: 225px;
+    background-color: #0C3954;
+    border-radius: 50px; /* Add rounded corners */
+    align-content: center;
+    text-align: center;
+}
+
+.certificate p {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.detail{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: gray;
+    margin-top: 30px;
+}
+
+.specifications {
+
+    width: 1100px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.shipping {
+
+    width: 1100px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-collapse: separate;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border-style: solid;
+}
+
+.bigword {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #0C3954;
+    margin-top: 50px;
+}
+
+.my-button {
+    background-color: #0C3954; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 1150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.testimonial {
+    margin: 0 auto;
+    padding-left: 2em;
+}
+
+.product-custom h1, p {
+    color: #082f49;
+}
+
+footer {
+    background-color: #082f49;
+}
+
+.navbar ul li a {
+    color: #082f49;
+}
+.navbar ul li a:hover {
+    color: #0c4a6e;
+}
+
+.button-custom {
+    background-color: #082f49;
+    transition: background-color 0.3s ease;
+}
+
+.button-custom:hover {
+    background-color: #0c4a6e;
+}
