@@ -2,7 +2,18 @@
 @section('title', 'Products')
 @section('content')
 
-    <div>
+<div class="mt-20 flex items-center justify-center">
+  <div class="bg-gray-300 rounded-lg p-6 flex text-left shadow-lg w-1/2">
+    <div class="w-full">
+      <p class="text-3xl font-bold text-white">EXCLUSIVE </p>
+      <p class="text-color text-3xl font-bold">COCONUT</p>
+      <p class="text-white text-sm mt-2">We’re working to build a future of shared success.</p>
+    </div>
+    <div class="flex justify-end ">
+      <img src="{{ asset('images/gambar.png') }}" alt="Coconuts" class="w-3/4 ">
+    </div>
+  </div>
+</div>
         <div class="container justify-center mx-auto mt-100 mb-100 ">
             <div class="product mx-10 my-8 text-center border border-gray-300 rounded-full overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
                 <a href="{{'/rawcoconut'}}">
@@ -48,5 +59,5 @@
                 </a>
             </div>
         </div>
-    </div>
+    
 @endsection

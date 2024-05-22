@@ -34,14 +34,22 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [App\Http\Controllers\AuthController::class, 'profile'])->name('profile');
 });
 
-
-
 Route::get("/", function () {
     return view('dashboardltf');
 });
 
 Route::get("/marketing", function () {
     return view('marketing');
+});
+Route::get("/petani", function () {
+    return view('petani');
+});
+
+Route::get("/requestmarketing", function () {
+    return view('requestmarketing');
+});
+Route::get("/requestpetani", function () {
+    return view('requestpetani');
 });
 
 Route::get('/products', [ProductsController::class, 'products']);
@@ -66,4 +74,17 @@ Route::get("/about", function () {
 
 Route::get("/contact", function () {
     return view('contact');
+});
+
+Route::get('/tambah_produk', function () {
+    return view('tambah_produk');
+});
+Route::get('/ubah-produk', function () {
+    return view('ubah');
+});
+Route::get('/update-produk', function () {
+    return view('update');
+});
+Route::get('/update-produk', function () {
+    return view('update');
 });

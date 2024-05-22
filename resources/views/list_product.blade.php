@@ -3,47 +3,76 @@
 @section('title', 'Aplikasi Web Ekspor Kelapa')
 @section('content')
 
-    <h1 class="text-black text-3xl font-serif pt-20 text-center p-20">List Produk</h1>
-    <div class="text-black justify-center flex pb-60">
-        <table class=" text-black size-11/12 border-collapse border border-slate-500 text-center ">
-            <thead id="table-header">
-                <tr>
-                    <th class="bg-yellow-400 border-2 border-black">ID</th>
-                    <th class="bg-yellow-400 border-2 border-black">Nama produk</th>
-                    <th class="bg-yellow-400 border-2 border-black">stok</th>
-                    <th class="bg-yellow-400 border-2 border-black">Foto Produk</th>
-                    <th class="bg-yellow-400 border-2 border-black">Aksi</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="bg-gray-200 border-2 border-black">1</td>
-                    <td class="bg-gray-200 border-2 border-black">Kelapa</td>
-                    <td class="bg-gray-200 border-2 border-black">1545 buah</td>
-                    <td class="bg-gray-200 border-2 border-black justify-center"><div class="flex justify-center"><img src="{{ url('/images/kelapa.jpg') }}" class="size-20"></div></td>
-                    <td class="bg-gray-200 border-2 border-black">
-                        <!-- Tombol CRUD -->
-                        <button class="bg-sky-700 text-center rounded-md size-1/3 hover:bg-sky-500">Edit</button>
-                        <button class="bg-red-700 text-center rounded-md size-1/3 hover:bg-red-500">Delete</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="bg-gray-200 border-2 border-black">2</td>
-                    <td class="bg-gray-200 border-2 border-black">Minyak kelapa</td>
-                    <td class="bg-gray-200 border-2 border-black">1000 L</td>
-                    <td class="bg-gray-200 border-2 border-black"><div class="flex justify-center"><img src="{{ url('/images/minyak kelapa.jpg') }}" class="size-20"></div></td>
-                    <td class="bg-gray-200 border-2 border-black">
-                        <!-- Tombol CRUD -->
-                        <button class="bg-sky-700 text-center rounded-md size-1/3 hover:bg-sky-500">Edit</button>
-                        <button class="bg-red-700 text-center rounded-md size-1/3 hover:bg-red-500">Delete</button>
-                    </td>
-                </tr>
-                <!-- Anda dapat menambahkan baris-baris tambahan sesuai dengan kebutuhan -->
-            </tbody>
-        </table>
-        
+<div class="dashboard-custom  justify-center mt-10 py-10 ">
+<a href="tambah_produk.php"><button
+        class="bg-sky-700 text-center rounded-md size-1/7 hover:bg-sky-500 p-2 ml-20 mb-2">Tambah Produk</button></a>
+<div class="relative shadow-md sm:rounded-lg  ">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-yellow-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr class="bg-yellow-200">
+                <th scope="col" class="px-4 py-3">
+                    <span class="sr-only">ID</span>
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Product
+                </th>
+                <th scope="col" class="px-6 py-3 pl-20 ">
+                    Stocks
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Picture
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-yellow-400 border-b dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
 
+                <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">
+                    1
+                </td>
+                <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                    Raw Coconut
+                </td>
+                <td class="px-6 py-4 custom pl-20 ml-20 font-semibold text-gray-900 dark:text-white">
+                    1545 pcs
+                </td>
+                <td class="p-4">
+                    <img src="{{ url('/images/kelapa.jpg') }}" class="w-16 md:w-32 max-w-full max-h-full rounded-lg">
+                </td>
+                <td class="px-6 py-4">
+                    <!-- Tombol CRUD -->
+                    <button class="bg-sky-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-sky-500">Edit</button>
+                    <button class="bg-red-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-red-500">Delete</button>
+                </td>
+            </tr>
+            <tr class="bg-yellow-400 border-b dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600">
+                
+                <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">
+                    2
+                </td>
     
-</div>
-
-
+                <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                    Coconut Oil
+                </td>
+    
+                <td class="px-6 py-4 custom pl-20 ml-20 font-semibold text-gray-900 dark:text-white ">
+                    1000 L
+                </td>
+                <td class="p-4">
+                        <img src="{{ url('/images/minyakkelapa.jpg') }}" class="w-16 md:w-32 max-w-full max-h-full rounded-lg">
+                </td>
+                <td class="px-6 py-4">
+                   <!-- Tombol CRUD -->
+                   <button class="bg-sky-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-sky-500">Edit</button>
+                    <button class="bg-red-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-red-500">Delete</button>
+                </td>
+            </tr>
+           
+        </tbody>
+    </table>
+    </div>
+    </div>
+    

@@ -5,11 +5,13 @@
 
 
 <div class="bg-white flex items-center justify-center h-screen mt-8 w-full h-full">
-  <img src="{{ asset('images/bg.png') }}" alt="Coconut" class="absolute object-cover w-full h-full opacity-50">
+  <img src="{{ asset('images/bg.png') }}" alt="Coconut" class="block absolute object-cover w-full h-full opacity-50">
   <div class="z-10 text-center">
     <h1 class="text-3xl font-serif">SUPER QUALITY</h1>
-    <p class="text-6xl font-serif">INDONESIA COCONUT</p> <br>
+    <p class="text-6xl font-serif">INDONESIA COCONUT</p><br>
+    <a href="/products">
     <button class="bg-yellow-400 text-white px-4 py-2 rounded-full hover:bg-yellow-500">Go to Products</button>
+    </a>
   </div>
 </div>
 
@@ -32,34 +34,33 @@
     </div>
   </div>
 
-  <div class="flex  mt-6">
+  <div class="flex mt-6">
   <div class="w-1/4 px-2 mb-4">
-    <div class="text-center  shadow-sm">
-      <svg class="mx-auto mb-2 w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A2 2 0 0 1 2 15.382V8.618a2 2 0 0 1 1.553-1.894L9 4m0 16v-6m0 6l5.447 2.724A2 2 0 0 0 16 17.618V10.382a2 2 0 0 0-1.553-1.894L9 6V4m0 16l5.447-2.724A2 2 0 0 1 16 15.382V8.618a2 2 0 0 1 1.553-1.894L23 4"></path></svg>
+    <div class="text-center">
+    <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-2 w-8 h-8" fill="currentColor"  viewBox="0 0 512 512" stroke-width="1.5" stroke="currentColor" ><path d="M288 32c0 17.7 14.3 32 32 32h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c53 0 96-43 96-96s-43-96-96-96H320c-17.7 0-32 14.3-32 32zm64 352c0 17.7 14.3 32 32 32h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H384c-17.7 0-32 14.3-32 32zM128 512h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H160c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32 14.3-32 32s14.3 32 32 32z"/></svg>
       <p class="text-gray-700 font-bold">RESPONSIBILITY</p>
     </div>
   </div> 
   <div class="w-1/4 px-2 mb-4">
     <div class="text-center">      
-      <svg class="mx-auto mb-2 w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.746 3.746 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mx-auto mb-2 w-8 h-8">
+  <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
 </svg>
       <p class="text-gray-700 font-bold">100% NATURAL</p>
     </div>
   </div>
   <div class="w-1/4 px-2 mb-4">
     <div class="text-center">      
-<svg class="mx-auto mb-2 w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
-  <path stroke-linecap="round" stroke-linejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="mx-auto mb-2 w-10 h-10"><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg>
       <p class="text-gray-700 font-bold">COMMITMENT</p>
     </div>
   </div>
   <div class="w-1/4 px-2 mb-4">
     <div class="text-center">      
-    <svg class="mx-auto mb-2 w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mx-auto mb-2 w-8 h-8">
+  <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
 </svg>
+
       <p class="text-gray-700 font-bold">GROW TOGETHER</p>
     </div>
   </div>
@@ -73,7 +74,9 @@
       <div class="absolute bottom-0 left-0 bg-opacity-50 p-4 w-full">
         <p class="text-white text-xl font-bold">Best Supplier</p>
         <p class="text-white">High-quality products to our customers</p>
+        <a href="/products">
         <button class="bg-yellow-400 text-white mt-2 px-3 py-1.5 text-sm rounded-full hover:bg-yellow-500">All Products</button>
+        </a>
       </div>
     </div>
   </div>
@@ -84,7 +87,9 @@
       <div class="absolute bottom-0 left-0 bg-opacity-50 p-4 w-full">
         <p class="text-white text-xl font-bold">Carefully</p>
         <p class="text-white">We carefully inspect the production process</p>
+        <a href="/products">
         <button class="bg-yellow-400 text-white mt-2 px-3 py-1.5 text-sm rounded-full hover:bg-yellow-500">All Products</button>
+        </a>
       </div>
     </div>
   </div>
@@ -95,7 +100,9 @@
       <div class="absolute bottom-0 left-0 bg-opacity-50 p-4 w-full">
         <p class="text-white text-xl font-bold">No Contaminants</p>
         <p class="text-white">Quality checking product to ensure that</p>
+        <a href="/products">
         <button class="bg-yellow-400 text-white mt-2 px-3 py-1.5 text-sm rounded-full hover:bg-yellow-500">All Products</button>
+        </a>
       </div>
     </div>
   </div>
@@ -109,49 +116,55 @@
   <p class="mt-6 mb-2 text-1/16xl text-sm  font-bold">SEARCH FOR</p>
     <h1 class="text-2xl font-bold mb-4  ">Get Ready for good quality</h1>
     <p class="mb-6  ">We commit to delivering only high-quality coconut products to you. Our products are made from fresh and high-quality raw materials.</p>
+    <a href="/products">
     <button class="button-custom text-white mt-2 px-3 py-1.5 text-sm rounded-full ">All Products</button>
+    </a>
   </div>
 </div>
 
+<div class="container mx-auto mt-24 mb-24">
+        <div class="flex flex-wrap justify-center">
+            <div class="product mx-10 my-8 text-center border border-gray-300 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                <a href="{{'/rawcoconut'}}">
+                    <img src="{{url('/images/kelapamuda.jpg')}}" alt="" class="w-full h-48 object-cover">
+                    <h4 class="text-xl font-bold mt-4">RAW COCONUT</h4>
+                    <h5 class="text-gray-600 mt-2">PRODUCT DETAILS</h5>
+                </a>
+            </div>
+            
+            <div class="product mx-10 my-8 text-center border border-gray-300 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                <a href="{{'/coconutshell'}}">
+                    <img src="{{url('/images/kulitkelapa.jpg')}}" alt="" class="w-full h-48 object-cover">
+                    <h4 class="text-xl font-bold mt-4">COCONUT SHELL</h4>
+                    <h5 class="text-gray-600 mt-2">PRODUCT DETAILS</h5>
+                </a>
+            </div>
+            
+            <div class="product mx-10 my-8 text-center border border-gray-300 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                <a href="{{'/coconutmilk'}}">
+                    <img src="{{url('/images/coconutmilk.jpg')}}" alt="" class="w-full h-48 object-cover">
+                    <h4 class="text-xl font-bold mt-4">COCONUT MILK</h4>
+                    <h5 class="text-gray-600 mt-2">PRODUCT DETAILS</h5>
+                </a>
+            </div>
+            
+            <div class="product mx-10 my-8 text-center border border-gray-300 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                <a href="{{'/coconutfiber'}}">
+                    <img src="{{url('/images/coconutfiber.jpg')}}" alt="" class="w-full h-48 object-cover">
+                    <h4 class="text-xl font-bold mt-4">COCONUT FIBER</h4>
+                    <h5 class="text-gray-600 mt-2">PRODUCT DETAILS</h5>
+                </a>
+            </div>
+        </div>
+        
+        <div class="flex justify-center items-center mt-15 table-request">
+            <a href="/products">
+                <button class="button-custom text-white font-bold px-6 py-3 rounded-full mt-10">EXPLORE ALL PRODUCTS</button>
+            </a>
+        </div>
+    </div>
+           
  
-<div class="testimonial font-sans bg-yellow-400 justify-center relative rounded-lg overflow-hidden px-100 mx-100 w-full md:w-3/4 px-4 mb-4">
-  <div class="text-center text-white text-6xl font-bold mt-6 font-serif">Testimonial</div>
-  <div class="flex justify-center items-center">
-    <div class="w-1/4 ">
-      <img src="{{ asset('images/kelapa.png') }}" alt="Coconuts" class="object-cover">
-    </div>
-    <div class="w-1/2 p-10">
-    <p class="mt-2 mb-2 text-1/16xl text-sm text-white font-bold">Good products for client</p>
-    <h1 class="text-2xl font-bold mb-4 text-white ">Check now happy customer</h1>
-    <p class="mb-6 text-sm text-white ">Focus is on creating high-caliber Coconut, without the premium price tag, with an emphasis on all-natural ingredients and intense Coconut flavors.</p>
-    <button class="button-custom  text-white  px-3 py-1.5 text-sm rounded-full ">All Products</button>
-  </div>
-</div>
-
-  <div class="flex justify-between mt-2">
-    <div class=" text-white p-4 ">
-      <p class=" mb-3 text-center text-white dark:text-gray-400">Focus is on creating high-caliber Coconut, without the premium price tag, with an emphasis on all-natural ingredients and intense Coconut flavors.</p>
-      <div class="flex items-center mt-4 mx-10 px-10">
-        <img src="{{ asset('images/andiean.jpg') }}" alt="Andien" class="rounded-full w-10 h-10 mr-2">
-        <div>
-          <div class="font-semibold">Andien</div>
-          <div class="text-sm text-white">America Company</div>
-        </div>
-      </div>
-    </div>
-    <div class=" text-white p-4 ">
-      <p class=" mb-3 text-center text-white dark:text-white">Focus is on creating high-caliber Coconut, without the premium price tag, with an emphasis on all-natural ingredients and intense Coconut flavors.</p>
-      <div class="flex items-center mt-4 mx-10 px-10">
-        <img src="{{ asset('images/philipe.jpg') }}" alt="Phillipe" class="rounded-full w-10 h-10 mr-2">
-        <div>
-          <div class="font-semibold">Phillipe</div>
-          <div class="text-sm text-white ">Europe Company</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 
 
 @endsection

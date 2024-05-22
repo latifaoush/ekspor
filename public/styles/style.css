@@ -3,8 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
-    margin-left: 210px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
@@ -46,8 +45,7 @@
 
 .containerrawcoconut{
     width: 1100px;
-    margin-left: 210px;
-    margin-top: 10px;
+    margin: 0 auto;
 }
 
 .namaproduk{
@@ -64,7 +62,7 @@
 .minimum {
     width: 350px;
     height: 225px;
-    background-color: #0C3954;
+    background-color: #082f49;
     border-radius: 50px; /* Add rounded corners */
     margin-right: 25px;
     align-content: center;
@@ -83,8 +81,8 @@
 .production {
     width: 350px;
     height: 225px;
-    background-color: #0C3954;
-    border-radius: 50px; /* Add rounded corners */
+    background-color: #082f49;
+    border-radius: 50px; /* Adxd rounded corners */
     margin-right: 25px;
     align-content: center;
     text-align: center;
@@ -100,7 +98,7 @@
 .certificate {
     width: 350px;
     height: 225px;
-    background-color: #0C3954;
+    background-color: #082f49;
     border-radius: 50px; /* Add rounded corners */
     align-content: center;
     text-align: center;
@@ -148,12 +146,12 @@
     font-size: 40px;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    color: #0C3954;
+    color: #082f49;
     margin-top: 50px;
 }
 
 .my-button {
-    background-color: #0C3954; /* Green background */
+    background-color: #082f49; /* Green background */
     border: none;
     color: white; /* White text */
     padding: 10px 20px; /* Padding */
@@ -181,6 +179,19 @@ footer {
     background-color: #082f49;
 }
 
+.kotak {
+    background-color: #082f49;
+}
+
+.cub {
+    background-color: #082f49;
+}
+
+.text-color {
+    color: #082f49;
+}
+
+
 .navbar ul li a {
     color: #082f49;
 }
@@ -195,4 +206,38 @@ footer {
 
 .button-custom:hover {
     background-color: #0c4a6e;
+}
+
+.font-icon {
+    color: #3f3f46;
+}
+
+.about, .kotak {
+    margin: 0 auto;
+}
+
+.table-request {
+    margin: 0 auto;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.social-links li {
+    list-style: none;
+}
+.contact-box {
+    padding: 15px;
+}
+
+.dashboard-custom {
+    margin-left: 270px;
+    width: 1100px;
+}
+
+.custom {
+    margin-left: 10px;
 }
