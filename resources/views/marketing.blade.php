@@ -77,10 +77,14 @@
             <li>
                 <a href="requestmarketing"
                     class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-<svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-send-check-fill flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" viewBox="0 0 16 16">
-  <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
-  <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"/>
-</svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        class="bi bi-send-check-fill flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
+                        <path
+                            d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686" />
+                    </svg>
                     <span class="flex-1 ms-3 whitespace-nowrap">Request Coconut</span>
                 </a>
             </li>
@@ -95,163 +99,117 @@
                     <span class="flex-1 ms-3 whitespace-nowrap">Sign In</span>
                 </a>
             </li>
-            <li>
-                <a href="/register"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z" />
-                        <path
-                            d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z" />
-                        <path
-                            d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z" />
-                    </svg>
-                    <span class="flex-1 ms-3 whitespace-nowrap">Sign Up</span>
-                </a>
-            </li>
+
         </ul>
     </div>
 </aside>
 
 
 <div class="flex justify-center mt-10 mb-10">
-    <div class="flex flex-col items-center bg-gray-300 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-  
-        <img class="object-cover w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-lg px-3" src="{{ asset('images/bgadm3.jpg') }} " alt="">
+    <div
+        class="flex flex-col items-center bg-gray-300 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+
+        <img class="object-cover w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-lg px-3"
+            src="{{ asset('images/bgadm3.jpg') }} " alt="">
         <div class="flex flex-col justify-between p-4 leading-sans text-xl">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coconut Stok</h5>
-            <div> 
+            <div>
                 <p class="mb-3 font-sans text-xl text-gray-700 dark:text-gray-400">200+ Pcs</p>
             </div>
-            <div> 
-                <p class="mb-3 font-sans text-base text-gray-700 dark:text-gray-400">Here you can requests coconut stok.</p>
+            <div>
+                <p class="mb-3 font-sans text-base text-gray-700 dark:text-gray-400">Here you can requests coconut stok.
+                </p>
             </div>
             <a href="/requestmarketing">
                 <button class="button-custom text-white mt-2 px-3 py-1.5 text-sm rounded-full">Request Coconut</button>
             </a>
         </div>
-    </a>
-</div>
+        </a>
+    </div>
 </div>
 
 
 <div class="dashboard-custom  justify-center mt-10 py-10 ">
-<a href="{{'/tambah_produk'}}"><button
-        class="cub button-custom text-white text-center rounded-md size-1/7 p-2 ml-20 mb-2">Tambah Produk</button></a>
-<div class="relative shadow-md sm:rounded-lg  ">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-yellow-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr class="bg-yellow-200">
-                <th scope="col" class="px-4 py-3">
-                    <span class="sr-only">ID</span>
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Product
-                </th>
-                <th scope="col" class="px-6 py-3 pl-20 ">
-                    Stocks
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Picture
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Action
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-yellow-400 border-b dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
+    <a href="{{'/tambah_produk'}}"><button
+            class="cub button-custom text-white text-center rounded-md size-1/7 p-2 ml-20 mb-2">Tambah
+            Produk</button></a>
+    <div class="relative shadow-md sm:rounded-lg  ">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-yellow-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr class="bg-yellow-200">
+                    <th scope="col" class="px-4 py-3">
+                        <span class="sr-only">ID</span>
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Product
+                    </th>
+                    <th scope="col" class="px-6 py-3 pl-20 ">
+                        Stocks
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Picture
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-yellow-400 border-b dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
 
-                <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">
-                    1
-                </td>
-                <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
-                    Raw Coconut
-                </td>
-                <td class="px-6 py-4 custom pl-20 ml-20 font-semibold text-gray-900 dark:text-white">
-                    1545 pcs
-                </td>
-                <td class="p-4">
-                    <img src="{{ url('/images/kelapa.jpg') }}" class="w-16 md:w-32 max-w-full max-h-full rounded-lg">
-                </td>
-                <td class="px-6 py-4">
-                    <!-- Tombol CRUD -->
-                    <button class="bg-sky-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-sky-500">Edit</button>
-                    <button class="bg-red-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-red-500">Delete</button>
-                </td>
-            </tr>
-            <tr class="bg-yellow-400 border-b dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600">
-                
-                <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">
-                    2
-                </td>
-    
-                <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
-                    Coconut Oil
-                </td>
-    
-                <td class="px-6 py-4 custom pl-20 ml-20 font-semibold text-gray-900 dark:text-white ">
-                    1000 L
-                </td>
-                <td class="p-4">
-                        <img src="{{ url('/images/minyakkelapa.jpg') }}" class="w-16 md:w-32 max-w-full max-h-full rounded-lg">
-                </td>
-                <td class="px-6 py-4">
-                   <!-- Tombol CRUD -->
-                   <button class="bg-sky-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-sky-500">Edit</button>
-                    <button class="bg-red-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-red-500">Delete</button>
-                </td>
-            </tr>
-           
-        </tbody>
-        <?php
-         include base_path('resources/views/koneksi.php');
-
-          $query = mysqli_query($koneksi, "SELECT * FROM produk");
-          $no = 1;
-          while ($data = mysqli_fetch_assoc($query)) {
-            ?>
-                
-
-                <tr>
-                    <td class="bg-gray-200 border-2 border-black"><?php echo $data['id']; ?></td>
-                    <td class="bg-gray-200 border-2 border-black"><?php echo $data['nama_produk']; ?></td>
-                    <td class="bg-gray-200 border-2 border-black"><?php echo $data['stok']; ?></td>
-                    <td class="bg-gray-200 border-2 border-black justify-center"><div class="flex justify-center"><img src="images/<?php echo $data['foto_produk']; ?>" class="size-20"></div></td>
-                    <td class="bg-gray-200 border-2 border-black">
+                    <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">
+                        1
+                    </td>
+                    <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                        Raw Coconut
+                    </td>
+                    <td class="px-6 py-4 custom pl-20 ml-20 font-semibold text-gray-900 dark:text-white">
+                        1545 pcs
+                    </td>
+                    <td class="p-4">
+                        <img src="{{ url('/images/kelapa.jpg') }}"
+                            class="w-16 md:w-32 max-w-full max-h-full rounded-lg">
+                    </td>
+                    <td class="px-6 py-4">
                         <!-- Tombol CRUD -->
-                        <button class="bg-sky-700 text-center rounded-md size-1/3 hover:bg-sky-500" data-toggle="modal" data-target="#edit<?php echo $data['id']; ?>"
-                  onclick="location.href='ubah.php?id=<?php echo $data['id']; ?>'">Edit</button>
-                        <button class="bg-red-700 text-center rounded-md size-1/3 hover:bg-red-500" data-toggle="modal" data-target="#delete<?php echo $data['id']; ?>"
-                onclick="location.href='hapus.php?id=<?php echo $data['id']; ?>'">Delete</button>
-
-                <script>
-                  // Fungsi untuk menampilkan peringatan dan mengembalikan false jika dibatalkan
-                  function confirmHapus() {
-                    // Menggunakan window.confirm untuk menampilkan dialog konfirmasi
-                    var result = window.confirm("Apakah Anda yakin ingin hapus?");
-
-                    // Jika pengguna mengklik OK, lanjutkan dengan penghapusan data
-                    if (result) {
-                      return true;
-                    } else {
-                      // Jika pengguna mengklik Batal, tampilkan pesan pembatalan dan kembalikan false
-                      alert("Batal hapus");
-                      return false;
-                    }
-                  }
-                </script>
+                        <button
+                            class="bg-sky-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-sky-500">Edit</button>
+                        <button
+                            class="bg-red-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-red-500">Delete</button>
                     </td>
                 </tr>
-                
-                <!-- Anda dapat menambahkan baris-baris tambahan sesuai dengan kebutuhan -->
+                <tr class="bg-yellow-400 border-b dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600">
+
+                    <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">
+                        2
+                    </td>
+
+                    <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                        Coconut Oil
+                    </td>
+
+                    <td class="px-6 py-4 custom pl-20 ml-20 font-semibold text-gray-900 dark:text-white ">
+                        1000 L
+                    </td>
+                    <td class="p-4">
+                        <img src="{{ url('/images/minyakkelapa.jpg') }}"
+                            class="w-16 md:w-32 max-w-full max-h-full rounded-lg">
+                    </td>
+                    <td class="px-6 py-4">
+                        <!-- Tombol CRUD -->
+                        <button
+                            class="bg-sky-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-sky-500">Edit</button>
+                        <button
+                            class="bg-red-700 text-center text-gray-900 rounded-md px-3 py-1.5 hover:bg-red-500">Delete</button>
+                    </td>
+                </tr>
+
             </tbody>
-            <?php }?>
         </table>
-    </table>
+        </table>
     </div>
-    </div>
-    
+</div>
+
 
 
 

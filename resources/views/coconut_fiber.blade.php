@@ -20,7 +20,7 @@
             <img src="{{ asset('images/cocfiber-3.jpg') }}"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
-        
+
     </div>
     <!-- Slider indicators -->
     <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -178,9 +178,11 @@
                 </tbody>
             </table>
         </div>
-        <button
-            class="my-button bg-blue-900 text-white py-2 px-4 rounded-lg text-right text-base inline-block mt-4">Order
-            Now</button>
+        <a href="/pesanan_cocfiber">
+            <button
+                class="my-button bg-blue-900 text-white py-2 px-4 rounded-lg text-right text-base inline-block mt-4">Order
+                Now</button>
+        </a>
     </div>
 
     @endsection

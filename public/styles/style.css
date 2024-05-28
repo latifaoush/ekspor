@@ -166,11 +166,6 @@
     border-radius: 8px; /* Rounded corners */
 }
 
-.testimonial {
-    margin: 0 auto;
-    padding-left: 2em;
-}
-
 .product-custom h1, p {
     color: #082f49;
 }
@@ -190,7 +185,6 @@ footer {
 .text-color {
     color: #082f49;
 }
-
 
 .navbar ul li a {
     color: #082f49;
@@ -241,3 +235,31 @@ footer {
 .custom {
     margin-left: 10px;
 }
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+ }
+
+ .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+ }
+ .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    border-radius: 10px;
+ }
+ .col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 10px 0;
+ }

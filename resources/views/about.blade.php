@@ -30,14 +30,14 @@
     <p class="text-5xl font-bold font-icon mb-2">25+</p>
     <p class="text-base text-gray-500">Trusted Client</p>
   </div>
-  <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
+  <!-- <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
     <p class="text-5xl font-bold font-icon mb-2">15</p>
     <p class="text-base text-gray-500">Completed Project</p>
-  </div>
-  <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
+  </div> -->
+  <!-- <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
     <p class="text-5xl font-bold font-icon mb-2">17</p>
     <p class="text-base text-gray-500">Professionals</p>
-  </div>
+  </div> -->
   <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
     <p class="text-5xl font-bold font-icon mb-2">11</p>
     <p class="text-base text-gray-500">Years Experience</p>
@@ -65,10 +65,6 @@
     <hr class="w-auto h-1 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10 dark:bg-gray-700 ">
 </div>
 </div>
-
-
-  
-
 
 
 @endsection    

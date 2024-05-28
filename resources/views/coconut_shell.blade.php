@@ -178,9 +178,11 @@
                 </tbody>
             </table>
         </div>
-        <button
-            class="my-button bg-blue-900 text-white py-2 px-4 rounded-lg text-right text-base inline-block mt-4">Order
-            Now</button>
+        <a href="/pesanan_cocshell">
+            <button
+                class="my-button bg-blue-900 text-white py-2 px-4 rounded-lg text-right text-base inline-block mt-4">Order
+                Now</button>
+        </a>
     </div>
 
     @endsection

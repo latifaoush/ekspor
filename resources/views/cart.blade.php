@@ -3,7 +3,7 @@
 @section('title', 'Aplikasi Web Ekspor Kelapa')
 @section('content')
 
-<div class="relative shadow-md sm:rounded-lg mt-20 ">
+<div class="relative px-20 py-20 shadow-md sm:rounded-lg mt-20 ">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-yellow-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr class="bg-yellow-200">
@@ -34,7 +34,7 @@
                 </td>
                 <td class="px-6 py-4" >
                     <div class="flex items-center justify-center ">
-                        <input type="number" id="first_product" class="bg-gray-50 w-20 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" required />
+                        <input type="number" id="first_product" min="30" class="bg-gray-50 w-20 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" required />
                     </div>
                 </td>
                 <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
@@ -53,7 +53,7 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center justify-center ">
-                        <input type="number" id="second_product" class="bg-gray-50 w-20 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" required />
+                        <input type="number" id="second_product" min="30" class="bg-gray-50 w-20 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" required />
                     </div>
                 </td>
                 <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
@@ -72,7 +72,7 @@
                 </td>
                 <td class="px-6 py-4">
                     <div class="flex items-center justify-center ">
-                        <input type="number" id="third_product" class="bg-gray-50 w-20 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" required />
+                        <input type="number" min="30" id="third_product" class="bg-gray-50 w-20 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="1" required />
                     </div>
                 </td>
                 <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
@@ -84,8 +84,6 @@
             </tr>
         </tbody>
     </table>
-</div>
-
 <div class="shadow-xl bg-yellow-400 h-fit w-fit rounded-lg m-5 px-5 pl-10">
     <table class="px-6 py-4 ">
         <tr class="mt-8 text-gray-900">
@@ -101,5 +99,7 @@
         </tr>
     </table>
 </div>
+</div>
+
 
 @endsection
