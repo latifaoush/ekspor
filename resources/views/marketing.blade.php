@@ -96,7 +96,7 @@
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
                     </svg>
-                    <span class="flex-1 ms-3 whitespace-nowrap">Sign In</span>
+                    <span class="flex-1 ms-3 whitespace-nowrap">LogIn</span>
                 </a>
             </li>
 
@@ -112,7 +112,7 @@
         <img class="object-cover w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-lg px-3"
             src="{{ asset('images/bgadm3.jpg') }} " alt="">
         <div class="flex flex-col justify-between p-4 leading-sans text-xl">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coconut Stok</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coconut Stock</h5>
             <div>
                 <p class="mb-3 font-sans text-xl text-gray-700 dark:text-gray-400">200+ Pcs</p>
             </div>

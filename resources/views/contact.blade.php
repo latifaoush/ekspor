@@ -30,9 +30,9 @@
   <!-- Kartu Kiri -->
   <div class="cub text-white font-sans  rounded-lg shadow-lg p-6 w-96">
     <div class="flex">
-    <img src="{{ asset('images/suport.jpg') }}" alt="Support Assistant" class="w-full rounded-lg mb-4 mr-4">
+    <img src="{{ asset('images/logo.png') }}" alt="Support Assistant" class="w-full rounded-lg mb-4 mr-4">
     <div class="flex flex-col">
-    <h2 class="text-2xl font-bold mb-2">Support Assistant</h2>
+    <h2 class="text-2xl font-bold mb-2">Ekspor Kelapa</h2>
     <p class="text-white text-sm font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
     </div>
     </div>

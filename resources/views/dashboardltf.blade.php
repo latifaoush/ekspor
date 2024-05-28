@@ -21,7 +21,9 @@
       <h3 class="text-yellow-400 text-2xl text-lg font-bold font-sans">TOP QUALITY PRODUCT</h3>
       <h3 class="text-gray-400 text-2xl text-lg font-bold font-sans">INDONESIA COCONUT</h3>
     </div>
-    <div class="w-full md:w-1/2 flex justify-end space-x-4 px-20 ">
+    </div>
+  </div>
+    <!-- <div class="w-full md:w-1/2 flex justify-end space-x-4 px-20 ">
   <div class="flex flex-col items-center">
     <p class="text-3xl font-bold text-yellow-400">20+</p>
     <p class="text-gray-400">Varians</p>
@@ -30,9 +32,8 @@
     <p class="text-3xl font-bold text-yellow-400">35</p>
     <p class="text-gray-400">Clients</p>
   </div>
-</div>
-    </div>
-  </div>
+</div> -->
+    
 
   <div class="flex mt-6">
   <div class="w-1/4 px-2 mb-4">

@@ -15,8 +15,8 @@
                             clip-rule="evenodd" />
                     </svg></a><br>
                 <a href="/login"
-                    class="text-gray-800 dark:text-white hover:bg-gray-50  focus:ring-gray-300 font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  hover:text-gray-500 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 font-serif border-b-0">Sign
-                    In</a>
+                    class="text-gray-800 dark:text-white hover:bg-gray-50  focus:ring-gray-300 font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  hover:text-gray-500 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 font-serif border-b-0">Login
+                   </a>
                 <a class="hover:text-gray-500 h-fit" href="logout.php?logout=true"
                     onclick="return confirmLogout()"><span class="material-symbols-outlined">logout</span></a>
             </div>
