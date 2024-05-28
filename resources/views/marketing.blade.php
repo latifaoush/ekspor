@@ -1,4 +1,4 @@
-@extends('layout.marketing')
+@extends('layout.dashmark')
 
 @section('title', 'Aplikasi Web Ekspor Kelapa')
 @section('content')
@@ -134,7 +134,7 @@
             class="cub button-custom text-white text-center rounded-md size-1/7 p-2 ml-20 mb-2">Tambah
             Produk</button></a>
     <div class="relative shadow-md sm:rounded-lg  ">
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-yellow-400">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-yellow-400 px-10 pr-20">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr class="bg-yellow-200">
                     <th scope="col" class="px-4 py-3">
