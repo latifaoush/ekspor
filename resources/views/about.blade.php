@@ -16,7 +16,7 @@
         <div class="absolute bottom-0 left-0 bg-opacity-50 p-4 w-full text-right">
           <p class="text-white text-xl font-bold">Coconut Products</p>
           <p class="text-white">Explore all coconut products</p>
-          <a href="/products">
+          <a href="/product">
           <button class="bg-yellow-400 text-white mt-2 px-3 py-1.5 text-sm rounded-full hover:bg-yellow-500">All Products</button>
           </a>
         </div>
@@ -30,14 +30,7 @@
     <p class="text-5xl font-bold font-icon mb-2">25+</p>
     <p class="text-base text-gray-500">Trusted Client</p>
   </div>
-  <!-- <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
-    <p class="text-5xl font-bold font-icon mb-2">15</p>
-    <p class="text-base text-gray-500">Completed Project</p>
-  </div> -->
-  <!-- <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
-    <p class="text-5xl font-bold font-icon mb-2">17</p>
-    <p class="text-base text-gray-500">Professionals</p>
-  </div> -->
+  
   <div class="flex flex-col w-1/4 px-2 mb-4 items-center justify-center">
     <p class="text-5xl font-bold font-icon mb-2">11</p>
     <p class="text-base text-gray-500">Years Experience</p>

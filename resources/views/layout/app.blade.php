@@ -14,7 +14,7 @@
     <div class="container mx-auto px-4">
         <div class="navbar bg-base-100">
             <div class="flex-1">
-                <a href="{{ route('dashboard') }}"  class="btn btn-ghost text-xl">Cairocoders</a>
+                <a href="{{ route('dashboardltf') }}"  class="btn btn-ghost text-xl">Cairocoders</a>
             </div>
             <div class="flex-none">
                 <div class="dropdown dropdown-end">

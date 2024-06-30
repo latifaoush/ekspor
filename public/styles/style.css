@@ -154,7 +154,7 @@
     background-color: #082f49; /* Green background */
     border: none;
     color: white; /* White text */
-    padding: 10px 20px; /* Padding */
+    padding: 8px 15px; /* Padding */
     text-align: center; /* Center text horizontally */
     text-decoration: none;
     display: inline-block;
@@ -210,8 +210,9 @@ footer {
     margin: 0 auto;
 }
 
-.table-request {
-    margin: 0 auto;
+
+.request {
+    margin-top: 100px;
 }
 
 .social-links {
@@ -228,8 +229,8 @@ footer {
 }
 
 .dashboard-custom {
-    margin-left: 270px;
-    width: 1100px;
+    margin-left: 210px;
+    width: 1000px;
 }
 
 .custom {
@@ -262,4 +263,16 @@ footer {
     font-size: 50px;
     line-height: 60px;
     margin: 10px 0;
+ }
+
+ .table-request {
+    margin: 0 auto;
+ }
+
+ .cocon {
+    margin-left: 300px;
+ }
+
+ .order {
+    margin-right: 150px;
  }
