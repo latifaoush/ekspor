@@ -1,9 +1,9 @@
-<footer class="bg-sky-900 dark:bg-gray-900 w-screen mt-12 px-20 mx-20 text-item-center flex-wrap mx-6 w-full">
+<footer class="dark:bg-gray-900 w-screen mt-12 px-20 mx-20 text-item-center flex-wrap mx-6 w-full">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-center">
             <div class="mb-6 md:mb-0 mx-2 mt-2">
                 <a href="/contact" class="flex-row items-start">
-                    <img src="{{ url('images/logo.png') }}" class="h-8 me-3" alt=" Logo" />
+                    <img src="{{ url('images/logoo.png') }}" class="h-8 me-3" alt=" Logo" />
                     <div class="text-left rtl:text-right">
                         <span
                             class="self-center text-2xl text-white whitespace-nowrap dark:text-white font-serif mb-2">Ekspor

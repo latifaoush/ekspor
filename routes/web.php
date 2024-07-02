@@ -111,21 +111,4 @@ Route::get("/contact", function () {
     return view('contact');
 });
 
-Route::get("/pesanan_rawcoc", function () {
-    return view('pesanan_rawcoc');
-});
-Route::get("/pesanan_cocshell", function () {
-    return view('pesanan_cocshell');
-});
-Route::get("/pesanan_cocoil", function () {
-    return view('pesanan_cocoil');
-});
-Route::get("/pesanan_cocmilk", function () {
-    return view('pesanan_cocmilk');
-});
-Route::get("/pesanan_cocfiber", function () {
-    return view('pesanan_cocfiber');
-});
-Route::get("/pesanan_cocsugar", function () {
-    return view('pesanan_cocsugar');
-});
+
